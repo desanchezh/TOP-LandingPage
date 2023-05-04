@@ -1,0 +1,41 @@
+body {
+    font-family: "roboto"
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.header-logo {
+    flex-direction: inherit;
+    padding: 10px;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-links {
+    flex-direction: inherit;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 10px
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
