@@ -19,6 +19,7 @@ body {
     padding: 10px;
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
 }
 
 .header-links {
@@ -38,4 +39,20 @@ li {
 a {
     text-decoration: none;
     color: #F9FAF8;
+}
+
+.main-content-container {
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+}
+
+.main-content-header {
+    font-size: 25px;
+}
+
+.mainleft-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
 }
