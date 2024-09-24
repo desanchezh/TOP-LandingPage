@@ -107,3 +107,8 @@ a {
     justify-content: space-around;
   
 }
+
+.randominfo-images img {
+    border-color: #3882f6;
+    border-width: 20px;
+}
