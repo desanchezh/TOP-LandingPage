@@ -68,4 +68,6 @@ a {
     font-size: 18px;
     color: #F9FAF8;
     background-color: #3882f6;
+    max-width: 130px;
+    min-height: 40px;
 }
