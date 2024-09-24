@@ -45,14 +45,27 @@ a {
     display: flex;
     padding: 50px;
     justify-content: center;
+    background-color: #1F2937;
 }
 
 .main-content-header {
-    font-size: 25px;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.main-content-subtext {
+    font-size: 18px;
+    color: #c1c4c8;
 }
 
 .mainleft-content {
     display: flex;
     flex-direction: column;
     max-width: 300px;
+}
+
+.main-content-button {
+    font-size: 18px;
+    color: #F9FAF8;
+    background-color: #3882f6;
 }
