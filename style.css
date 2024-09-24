@@ -80,3 +80,30 @@ a {
     height: 200px;
     max-width: 400px;
 }
+
+
+.randominfo-container {
+    display: flex wrap;
+    padding: 50px;
+    justify-content: center;
+    background-color: #fcfcfc;
+}
+
+.randominfo-header {
+    font-size: 36px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+}
+
+.randominfo-images {
+    display: flex;
+    justify-content: space-around;
+    padding: 20%;
+}
+
+.randominfo-subtext {
+    display: flex;
+    justify-content: space-around;
+  
+}
