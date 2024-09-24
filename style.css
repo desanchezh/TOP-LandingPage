@@ -51,6 +51,7 @@ a {
 .main-content-header {
     font-size: 48px;
     color: #F9FAF8;
+    font-weight: 900;
 }
 
 .main-content-subtext {
@@ -61,13 +62,21 @@ a {
 .mainleft-content {
     display: flex;
     flex-direction: column;
-    max-width: 300px;
+    max-width: 500px;
+    min-width: 200px;
 }
 
 .main-content-button {
     font-size: 18px;
     color: #F9FAF8;
     background-color: #3882f6;
-    max-width: 130px;
+    max-width: 100px;
+    min-width: 10px;
     min-height: 40px;
+    border-radius: 12px;
+}
+
+.main-image img {
+    height: 200px;
+    max-width: 400px;
 }
