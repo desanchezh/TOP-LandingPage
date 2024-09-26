@@ -100,6 +100,7 @@ a {
     display: flex;
     font-size: 12px;
     justify-content: center;
+    padding: 20px;
 }
 
 .randominfo-subtext {
@@ -123,4 +124,12 @@ a {
 
 .quote-author {
     align-self: flex-end;
+}
+
+.signup-container {
+    display: ;
+}
+
+.signup-button {
+    max-width: 20px;
 }
