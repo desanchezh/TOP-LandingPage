@@ -127,9 +127,47 @@ a {
 }
 
 .signup-container {
-    display: ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
 }
 
 .signup-button {
-    max-width: 20px;
+    max-width: 80px;
+    max-height: 20px;
+    background-color: #3882f6;
+    border-color: #F9FAF8;
+    color: #ffffff;
+    border-radius: 12px;
+
 }
+
+.signup-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 20px;
+}
+
+.signup-left {
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    color: white;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #1F2937;
+    padding: 30px;
+}
+
